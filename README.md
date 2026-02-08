@@ -1,5 +1,11 @@
-## 📁 Project Structure
+# ORM Fundamental – JPA / Hibernate (Maven)
 
+This project demonstrates **basic ORM concepts** using **Jakarta Persistence (JPA)** with **Hibernate** as the provider.
+The goal is to understand how Java objects are mapped to relational database tables.
+
+---
+## 📁 Project Structure
+```
 MavenProject1
 │
 ├── pom.xml
@@ -47,4 +53,17 @@ MavenProject1
 │ └── test-classes
 │
 └── README.md
+```
 
+
+- ORM (Object Relational Mapping)
+- JPA annotations:
+  - `@Entity`
+  - `@Id`
+  - `@GeneratedValue`
+  - `@Table`
+- Entity lifecycle
+- `EntityManager` & `EntityTransaction`
+- Mapping Java classes to MySQL tables
+
+---
